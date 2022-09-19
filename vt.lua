@@ -488,7 +488,7 @@ function claimQuests()
     end
 end
 
-loadstring(game:HttpGet("https://pastebin.com/raw/tUUGAeaH", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lensarjack/lp/main/vt.lua", true))()
 
 -- file system.
 local folderpath = [[ventureAI/]]
