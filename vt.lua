@@ -488,7 +488,7 @@ function claimQuests()
     end
 end
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/lensarjack/lp/main/vt.lua", true))()
+loadstring(game:HttpGet("https://pastebin.com/raw/tUUGAeaH", true))()
 
 -- file system.
 local folderpath = [[ventureAI/]]
@@ -551,7 +551,7 @@ local flags = {
 -- auto execute.
 connect(client.OnTeleport, function(State)
     if State == Enum.TeleportState.Started and syn and flags.autoExec then
-        queueteleport([[loadstring(game:HttpGet("https://pastebin.com/raw/PZMHFhFh"))()]])
+        queueteleport([[loadstring(game:HttpGet("https://raw.githubusercontent.com/lensarjack/lp/43409caa28c3c31583018a9607818fd5ab040c1d/vt.lua"))()]])
     end
 end)
 
